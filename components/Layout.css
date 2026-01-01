@@ -1,3 +1,13 @@
 .progress-bar {
   width: var(--progress-width);
 }
+
+.main-content {
+  padding-top: 120px;
+}
+
+@media (max-width: 768px) {
+  .main-content {
+    padding-top: 100px;
+  }
+}

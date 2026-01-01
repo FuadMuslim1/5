@@ -308,7 +308,7 @@ export const Layout: React.FC<LayoutProps> = ({ children, user, title }) => {
       </aside>
 
       {/* Main Content */}
-      <main className="flex-1 min-w-0 flex flex-col h-screen relative bg-slate-50/50 pt-30">
+      <main className="flex-1 min-w-0 flex flex-col h-screen relative bg-slate-50/50 main-content">
 
         {/* HEADER - HIDDEN EXCEPT HAMBURGER AND BELL */}
         <div className="sticky top-0 z-30 px-6 py-4 flex items-center justify-between">

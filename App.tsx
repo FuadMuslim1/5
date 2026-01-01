@@ -180,7 +180,6 @@ const App: React.FC = () => {
             
             {/* User Routes */}
             <Route path="/dashboard" element={<ProtectedRoute><UserDashboard user={authState.user!} /></ProtectedRoute>} />
-            <Route path="/subject" element={<ProtectedRoute><SkillMenu user={authState.user!} /></ProtectedRoute>} />
             <Route path="/materials/:subject" element={<ProtectedRoute><MaterialList user={authState.user!} /></ProtectedRoute>} />
             <Route path="/pronunciation" element={<ProtectedRoute><Pronunciation user={authState.user!} /></ProtectedRoute>} />
             <Route path="/pronunciation-menu" element={<ProtectedRoute><PronunciationMenu /></ProtectedRoute>} />

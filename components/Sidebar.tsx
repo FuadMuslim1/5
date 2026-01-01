@@ -133,7 +133,7 @@ const Sidebar: React.FC = () => {
           height: 55px;
           border-radius: 50%;
           border: 4px solid transparent;
-          background-image: linear-gradient(black, black), linear-gradient(45deg, #feda75, #fa7e1e, #d62976, #8134af);
+          background-image: linear-gradient(black, black), linear-gradient(45deg, #3b82f6, #6366f1, #8b5cf6, #a855f7);
           background-origin: border-box;
           background-clip: padding-box, border-box;
           background-size: 300% 300%;
@@ -184,7 +184,7 @@ const Sidebar: React.FC = () => {
           padding: 12px 22px;
           border-radius: 999px;
           border: 4px solid transparent;
-          background-image: linear-gradient(white, white), linear-gradient(45deg, #feda75, #fa7e1e, #d62976, #8134af);
+          background-image: linear-gradient(white, white), linear-gradient(45deg, #3b82f6, #6366f1, #8b5cf6, #a855f7);
           background-origin: border-box;
           background-clip: padding-box, border-box;
           background-size: 300% 300%;

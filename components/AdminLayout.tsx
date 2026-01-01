@@ -28,8 +28,8 @@ export const AdminLayout: React.FC<AdminLayoutProps> = ({ children, user, title 
 
   const NavItem = ({ icon: Icon, label, path }: { icon: any, label: string, path: string }) => {
     const isActive = location.pathname === path;
-    const activeClass = isLord 
-        ? 'bg-amber-500/20 text-amber-400 shadow-lg shadow-amber-900/20 border-l-4 border-amber-500' // Gold theme for Lord
+    const activeClass = isLord
+        ? 'bg-indigo-500/20 text-indigo-400 shadow-lg shadow-indigo-900/20 border-l-4 border-indigo-500' // Indigo theme for Lord
         : 'bg-indigo-600 text-white shadow-lg shadow-indigo-900/20';
 
     return (
@@ -101,10 +101,10 @@ export const AdminLayout: React.FC<AdminLayoutProps> = ({ children, user, title 
       `}>
         {/* Brand */}
         <div className="h-16 flex items-center px-6 border-b border-slate-800 bg-slate-950">
-          <div className={`w-8 h-8 rounded-lg flex items-center justify-center shrink-0 ${isLord ? 'bg-amber-500 shadow-lg shadow-amber-500/20' : 'bg-indigo-600'}`}>
+          <div className={`w-8 h-8 rounded-lg flex items-center justify-center shrink-0 ${isLord ? 'bg-indigo-500 shadow-lg shadow-indigo-500/20' : 'bg-indigo-600'}`}>
             <Shield size={18} className="text-white" />
           </div>
-          <span className={`ml-3 font-bold text-lg tracking-tight transition-opacity duration-200 ${!isSidebarOpen && 'lg:hidden lg:group-hover:block'} ${isLord ? 'text-amber-500' : 'text-white'}`}>
+          <span className={`ml-3 font-bold text-lg tracking-tight transition-opacity duration-200 ${!isSidebarOpen && 'lg:hidden lg:group-hover:block'} ${isLord ? 'text-indigo-500' : 'text-white'}`}>
             {isLord ? 'Lord Access' : 'Geuwat Admin'}
           </span>
         </div>
@@ -117,11 +117,11 @@ export const AdminLayout: React.FC<AdminLayoutProps> = ({ children, user, title 
         {/* Admin Profile Footer */}
         <div className="p-4 border-t border-slate-800 bg-slate-950">
           <div className="flex items-center gap-3 mb-4">
-             <div className={`w-8 h-8 rounded-full flex items-center justify-center text-xs font-bold border ${isLord ? 'bg-amber-900 border-amber-600 text-amber-400' : 'bg-slate-800 border-slate-700'}`}>
+             <div className={`w-8 h-8 rounded-full flex items-center justify-center text-xs font-bold border ${isLord ? 'bg-indigo-900 border-indigo-600 text-indigo-400' : 'bg-slate-800 border-slate-700'}`}>
                {user?.displayName?.charAt(0) || 'A'}
              </div>
              <div className={`overflow-hidden transition-all ${!isSidebarOpen && 'lg:hidden lg:group-hover:block'}`}>
-               <div className={`text-sm font-medium truncate ${isLord ? 'text-amber-400' : 'text-white'}`}>{user?.displayName}</div>
+               <div className={`text-sm font-medium truncate ${isLord ? 'text-indigo-400' : 'text-white'}`}>{user?.displayName}</div>
                <div className="text-[10px] text-slate-500 uppercase font-bold">{user?.role}</div>
              </div>
           </div>
@@ -143,7 +143,7 @@ export const AdminLayout: React.FC<AdminLayoutProps> = ({ children, user, title 
             <button onClick={() => setIsSidebarOpen(!isSidebarOpen)} className="text-slate-500 hover:bg-slate-800 p-2 rounded-lg lg:hidden" aria-label="Toggle sidebar">
               <Menu size={20} />
             </button>
-            <h1 className={`text-lg font-bold ${isLord ? 'text-amber-500' : 'text-slate-800'}`}>{title}</h1>
+            <h1 className={`text-lg font-bold ${isLord ? 'text-indigo-500' : 'text-slate-800'}`}>{title}</h1>
           </div>
           <div className="flex items-center gap-3">
              <span className={`text-xs font-mono px-2 py-1 rounded ${isLord ? 'bg-amber-900/30 text-amber-500 border border-amber-900' : 'bg-slate-100 text-slate-500'}`}>
