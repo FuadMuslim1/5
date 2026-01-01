@@ -1,6 +1,6 @@
 
 import React, { useEffect, useState, useRef, Suspense } from 'react';
-import { HashRouter, Routes, Route, Navigate } from 'react-router-dom';
+import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom';
 import { db, auth } from './firebase'; 
 import { doc, onSnapshot, Unsubscribe, updateDoc } from 'firebase/firestore';
 import { onAuthStateChanged } from 'firebase/auth';
@@ -199,7 +199,7 @@ const App: React.FC = () => {
             <Route path="/admin/notification" element={<ProtectedRoute allowedRoles={[UserRole.ADMIN_NOTIFICATION]}><AdminNotification user={authState.user!} /></ProtectedRoute>} />
           </Routes>
         </Suspense>
-      </HashRouter>
+      </BrowserRouter>
     </ErrorBoundary>
   );
 };
