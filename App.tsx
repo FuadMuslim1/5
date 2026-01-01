@@ -171,7 +171,7 @@ const App: React.FC = () => {
 
   return (
     <ErrorBoundary>
-      <HashRouter>
+      <BrowserRouter>
         <Suspense fallback={<LoadingScreen />}>
           <Routes>
             <Route path="/" element={<Homepage />} />
