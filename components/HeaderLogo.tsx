@@ -41,18 +41,7 @@ const HeaderLogo: React.FC = () => {
       document.head.appendChild(style);
     }
 
-    // Simulate main padding
-    const main = document.querySelector('main');
-    if (main) {
-      main.style.paddingTop = '120px';
-    }
 
-    return () => {
-      const main = document.querySelector('main');
-      if (main) {
-        main.style.paddingTop = '';
-      }
-    };
   }, []);
 
   return (

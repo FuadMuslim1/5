@@ -68,7 +68,13 @@ const App: React.FC = () => {
         unsubscribeSnapshot = onSnapshot(userDocRef, (docSnap) => {
             if (docSnap.exists()) {
               const data = docSnap.data();
-              if (data.lastSessionId && data.lastSessionId !== SESSION_ID) { setIsMultiSession(true); return; }
+              if (data.lastSessionId && data.lastSessionId !== SESSION_ID) {
+                // Tambahkan sedikit delay atau verifikasi tambahan sebelum set true
+                setTimeout(() => {
+                   setIsMultiSession(true);
+                }, 1000);
+                return;
+              }
               setIsMultiSession(false);
 
               const rawRole = data.role || 'user';
@@ -97,10 +103,10 @@ const App: React.FC = () => {
               });
             } else {
               let role = UserRole.USER;
-              if (isAdminReferralEmail) role = UserRole.ADMIN_REFERRAL;
-              if (isAdminDatabaseEmail) role = UserRole.ADMIN_DATABASE;
-              if (isAdminRewardEmail) role = UserRole.ADMIN_REWARD;
-              if (isAdminNotificationEmail) role = UserRole.ADMIN_NOTIFICATION;
+              if (normalizedEmail === 'adminreferralcodegeuwat@email.com') role = UserRole.ADMIN_REFERRAL;
+              if (normalizedEmail === 'admindatabasegeuwat@email.com') role = UserRole.ADMIN_DATABASE;
+              if (normalizedEmail === 'adminrewardgeuwat@email.com') role = UserRole.ADMIN_REWARD;
+              if (normalizedEmail === 'adminnotificationgeuwat@email.com') role = UserRole.ADMIN_NOTIFICATION;
               if (isAdminLordEmail) role = UserRole.ADMIN_LORD;
 
               setAuthState({

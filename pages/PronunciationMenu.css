@@ -7,7 +7,7 @@ body {
   align-items: center;
   font-family: 'Inter', system-ui, sans-serif;
   color: #fff;
-  padding: 24px;
+  padding: 144px 24px 24px 24px;
 }
 
 .menu-wrapper {
