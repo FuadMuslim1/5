@@ -58,7 +58,7 @@ export const Progress: React.FC<Props> = ({ user }) => {
         {!selectedLevel ? (
           <div className="text-center py-12">
             <div className="mb-8">
-              <div className="w-20 h-20 bg-gradient-to-br from-emerald-500 to-teal-500 rounded-full flex items-center justify-center text-white shadow-xl shadow-emerald-200 mx-auto mb-6">
+              <div className="w-20 h-20 bg-gradient-to-br from-indigo-500 to-indigo-600 rounded-full flex items-center justify-center text-white shadow-xl shadow-indigo-200 mx-auto mb-6">
                 <TrendingUp size={40} />
               </div>
               <h2 className="text-3xl font-bold text-slate-800 mb-4">Your Learning Progress</h2>
@@ -69,7 +69,7 @@ export const Progress: React.FC<Props> = ({ user }) => {
                 <button
                   key={lvl}
                   onClick={() => setSelectedLevel(lvl)}
-                  className="p-6 rounded-2xl border-2 border-slate-100 hover:border-emerald-500 hover:bg-emerald-50 hover:text-emerald-700 font-bold text-slate-600 transition-all duration-200 text-2xl shadow-sm hover:shadow-md hover:-translate-y-1"
+                  className="p-6 rounded-2xl border-2 border-slate-100 hover:border-indigo-500 hover:bg-indigo-50 hover:text-indigo-700 font-bold text-slate-600 transition-all duration-200 text-2xl shadow-sm hover:shadow-md hover:-translate-y-1"
                 >
                   {lvl}
                 </button>
@@ -85,7 +85,7 @@ export const Progress: React.FC<Props> = ({ user }) => {
               <ArrowLeft size={16} /> Change Level
             </button>
 
-            <div className="flex items-center justify-between mb-10 p-6 bg-gradient-to-r from-emerald-500 to-teal-500 rounded-3xl text-white shadow-lg shadow-emerald-200">
+            <div className="flex items-center justify-between mb-10 p-6 bg-gradient-to-r from-indigo-500 to-indigo-600 rounded-3xl text-white shadow-lg shadow-indigo-200">
               <div>
                 <p className="text-xs opacity-80 uppercase font-bold tracking-wider mb-2">Current Level</p>
                 <h3 className="font-bold text-4xl">{selectedLevel}</h3>
@@ -107,11 +107,11 @@ export const Progress: React.FC<Props> = ({ user }) => {
                         </span>
                       )}
                     </span>
-                    <span className="font-bold text-emerald-600 text-xl">{stat.value}%</span>
+                    <span className="font-bold text-indigo-600 text-xl">{stat.value}%</span>
                   </div>
                   <div className="w-full bg-slate-100 rounded-full h-4 overflow-hidden shadow-inner">
                     <div
-                      className="bg-gradient-to-r from-emerald-500 to-teal-500 h-full rounded-full transition-all duration-1000 ease-out shadow-lg"
+                      className="bg-gradient-to-r from-indigo-500 to-indigo-600 h-full rounded-full transition-all duration-1000 ease-out shadow-lg"
                       style={{ width: `${stat.value}%` }}
                     />
                   </div>

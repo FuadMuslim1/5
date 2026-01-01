@@ -3,4 +3,5 @@
 ## Tasks
 - [x] Update AdminLayout.tsx: Replace amber colors with indigo for Lord Access
 - [x] Update Sidebar.tsx: Replace Instagram-like gradient with indigo-based colors
+- [x] Update Progress.tsx: Replace emerald/teal colors with indigo
 - [x] Verify changes across components

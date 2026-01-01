@@ -63,8 +63,8 @@ export const Reward: React.FC<Props> = ({ user }) => {
 
             <div className="bg-white p-6 rounded-3xl border border-slate-100 shadow-sm hover:shadow-md transition-shadow md:col-span-2">
               <div className="text-xs text-slate-400 uppercase font-bold tracking-widest mb-3">Balance</div>
-              <div className="text-3xl font-bold text-amber-600 flex items-center justify-center gap-2">
-                <Coins size={24} className="fill-amber-600 stroke-amber-700" />
+              <div className="text-3xl font-bold text-indigo-600 flex items-center justify-center gap-2">
+                <Coins size={24} className="fill-indigo-600 stroke-indigo-700" />
                 {formatNumber(user.balance)}
               </div>
             </div>

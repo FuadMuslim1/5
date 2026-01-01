@@ -409,7 +409,7 @@ export const Layout: React.FC<LayoutProps> = ({ children, user, title }) => {
                  <ArrowLeft size={14} /> Change Level
                </button>
                
-               <div className="flex items-center justify-between mb-8 p-4 bg-gradient-to-r from-emerald-500 to-teal-500 rounded-2xl text-white shadow-lg shadow-emerald-200">
+               <div className="flex items-center justify-between mb-8 p-4 bg-gradient-to-r from-indigo-500 to-indigo-600 rounded-2xl text-white shadow-lg shadow-indigo-200">
                  <div>
                     <p className="text-xs opacity-80 uppercase font-bold tracking-wider mb-1">Current Level</p>
                     <h4 className="font-bold text-3xl">{selectedLevel}</h4>
@@ -474,8 +474,8 @@ export const Layout: React.FC<LayoutProps> = ({ children, user, title }) => {
                  </div>
                  <div className="bg-slate-50 p-4 rounded-2xl border border-slate-100">
                     <div className="text-xs text-slate-400 uppercase font-bold tracking-wider mb-2">Balance</div>
-                    <div className="text-lg font-bold text-amber-600 flex items-center justify-center gap-1">
-                      <Coins size={18} className="fill-amber-600 stroke-amber-700" /> 
+                    <div className="text-lg font-bold text-indigo-600 flex items-center justify-center gap-1">
+                      <Coins size={18} className="fill-indigo-600 stroke-indigo-700" />
                       {formatNumber(user.balance)}
                     </div>
                  </div>
