@@ -20,13 +20,13 @@ import {
 import { UserRole, UserProfile } from './types';
 
 const firebaseConfig = {
-  apiKey: "AIzaSyDc24eHGwIFcltfsYOwuhig8whHQuhfJ7U",
-  authDomain: "learning-english-geuwat-d7555.firebaseapp.com",
-  projectId: "learning-english-geuwat-d7555",
-  storageBucket: "learning-english-geuwat-d7555.firebasestorage.app",
-  messagingSenderId: "110497450552",
-  appId: "1:110497450552:web:1de6e8e96d77318988b4cd",
-  measurementId: "G-SD5W12S7ZZ"
+  apiKey: process.env.FIREBASE_API_KEY,
+  authDomain: process.env.FIREBASE_AUTH_DOMAIN,
+  projectId: process.env.FIREBASE_PROJECT_ID,
+  storageBucket: process.env.FIREBASE_STORAGE_BUCKET,
+  messagingSenderId: process.env.FIREBASE_MESSAGING_SENDER_ID,
+  appId: process.env.FIREBASE_APP_ID,
+  measurementId: process.env.FIREBASE_MEASUREMENT_ID
 };
 
 // Primary App (Untuk Sesi Admin/User saat ini)
