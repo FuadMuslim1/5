@@ -1,0 +1,126 @@
+{
+  "Consonant‑Voiced‑ŋ": {
+    "ŋ": [
+      {
+        "text": "sing",
+        "ipa": "/sÉªÅ‹/"
+      },
+      {
+        "text": "song",
+        "ipa": "/sÉ”Å‹/"
+      },
+      {
+        "text": "long",
+        "ipa": "/lÉ”Å‹/"
+      },
+      {
+        "text": "ring",
+        "ipa": "/rÉªÅ‹/"
+      },
+      {
+        "text": "king",
+        "ipa": "/kÉªÅ‹/"
+      },
+      {
+        "text": "thing",
+        "ipa": "/Î¸ÉªÅ‹/"
+      },
+      {
+        "text": "bring",
+        "ipa": "/brÉªÅ‹/"
+      },
+      {
+        "text": "spring",
+        "ipa": "/sprÉªÅ‹/"
+      },
+      {
+        "text": "strong",
+        "ipa": "/strÉ”Å‹/"
+      },
+      {
+        "text": "wrong",
+        "ipa": "/rÉ”Å‹/"
+      },
+      {
+        "text": "young",
+        "ipa": "/jÊŒÅ‹/"
+      },
+      {
+        "text": "hang",
+        "ipa": "/hÃ¦Å‹/"
+      },
+      {
+        "text": "bang",
+        "ipa": "/bÃ¦Å‹/"
+      },
+      {
+        "text": "wing",
+        "ipa": "/wÉªÅ‹/"
+      },
+      {
+        "text": "string",
+        "ipa": "/strÉªÅ‹/"
+      },
+      {
+        "text": "morning",
+        "ipa": "/ËˆmÉ”rnÉªÅ‹/"
+      },
+      {
+        "text": "evening",
+        "ipa": "/ËˆivnÉªÅ‹/"
+      },
+      {
+        "text": "beginning",
+        "ipa": "/bÉªËˆgÉªnÉªÅ‹/"
+      },
+      {
+        "text": "ending",
+        "ipa": "/ËˆÉ›ndÉªÅ‹/"
+      },
+      {
+        "text": "working",
+        "ipa": "/ËˆwÉœrkÉªÅ‹/"
+      },
+      {
+        "text": "thinking",
+        "ipa": "/ËˆÎ¸ÉªÅ‹kÉªÅ‹/"
+      },
+      {
+        "text": "talking",
+        "ipa": "/ËˆtÉ”kÉªÅ‹/"
+      },
+      {
+        "text": "walking",
+        "ipa": "/ËˆwÉ”kÉªÅ‹/"
+      },
+      {
+        "text": "running",
+        "ipa": "/ËˆrÊŒnÉªÅ‹/"
+      },
+      {
+        "text": "swimming",
+        "ipa": "/ËˆswÉªmÉªÅ‹/"
+      },
+      {
+        "text": "coming",
+        "ipa": "/ËˆkÊŒmÉªÅ‹/"
+      },
+      {
+        "text": "going",
+        "ipa": "/ËˆgoÊŠÉªÅ‹/"
+      },
+      {
+        "text": "living",
+        "ipa": "/ËˆlÉªvÉªÅ‹/"
+      },
+      {
+        "text": "loving",
+        "ipa": "/ËˆlÊŒvÉªÅ‹/"
+      },
+      {
+        "text": "doing",
+        "ipa": "/ËˆduÉªÅ‹/"
+      }
+    ]
+  }
+}

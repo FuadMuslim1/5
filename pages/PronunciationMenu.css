@@ -1,0 +1,120 @@
+body {
+  margin: 0;
+  min-height: 100vh;
+  background: radial-gradient(circle at top, #111, #000);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Inter', system-ui, sans-serif;
+  color: #fff;
+  padding: 24px;
+}
+
+.menu-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 70px;
+  align-items: center;
+  width: 100%;
+  max-width: 360px;
+}
+
+/* WHEEL */
+.number-wheel {
+  position: relative;
+  width: 90px;
+  height: 180px;
+  overflow: hidden;
+}
+
+.number-wheel ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  top: 50%;
+  width: 100%;
+}
+
+.number-wheel li {
+  position: absolute;
+  width: 100%;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Poppins', sans-serif;
+  font-size: 28px;
+  font-weight: 600;
+  color: rgba(255,255,255,0.25);
+  cursor: pointer;
+  transition:
+    transform 0.45s cubic-bezier(0.4,0,0.2,1),
+    opacity 0.45s ease,
+    font-size 0.45s ease;
+}
+
+/* CTA PULSE */
+@keyframes pulse {
+  0% { transform: scale(1); }
+  50% { transform: scale(1.15); }
+  100% { transform: scale(1); }
+}
+
+.number-wheel li.active {
+  font-size: 44px;
+  opacity: 1;
+  background: linear-gradient(45deg,#feda75,#fa7e1e,#d62976,#962fbf,#4f5bd5);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-shadow: 0 0 14px rgba(255,255,255,0.6);
+  animation: pulse 1.3s infinite ease-in-out;
+}
+
+.number-wheel li.near {
+  opacity: 0.6;
+  color: rgba(255,255,255,0.6);
+}
+
+/* TOPIC */
+.topic-panel {
+  width: 100%;
+  text-align: center;
+}
+
+.topic-panel h2 {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  font-size: 36px;
+  letter-spacing: 1px;
+  background: linear-gradient(90deg,#feda75,#fa7e1e,#d62976,#962fbf,#4f5bd5);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.topic-panel p {
+  margin-top: 14px;
+  font-size: 16px;
+  line-height: 1.6;
+  color: #ddd;
+}
+
+/* TOOLTIP */
+.global-tooltip {
+  position: fixed;
+  padding: 6px 12px;
+  font-size: 12px;
+  border-radius: 6px;
+  background: linear-gradient(45deg,#feda75,#fa7e1e,#d62976,#962fbf,#4f5bd5);
+  color: #fff;
+  opacity: 0;
+  transform: translateX(-6px);
+  transition: opacity 0.25s ease, transform 0.25s ease;
+  pointer-events: none;
+  z-index: 9999;
+}
+
+.global-tooltip.show {
+  opacity: 1;
+  transform: translateX(0);
+}

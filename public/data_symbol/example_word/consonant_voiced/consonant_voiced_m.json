@@ -1,0 +1,126 @@
+{
+  "Consonant-Voiced-m": {
+    "m": [
+      {
+        "text": "man",
+        "ipa": "/mÃ¦n/"
+      },
+      {
+        "text": "map",
+        "ipa": "/mÃ¦p/"
+      },
+      {
+        "text": "mad",
+        "ipa": "/mÃ¦d/"
+      },
+      {
+        "text": "make",
+        "ipa": "/meÉªk/"
+      },
+      {
+        "text": "more",
+        "ipa": "/mÉ”r/"
+      },
+      {
+        "text": "most",
+        "ipa": "/moÊŠst/"
+      },
+      {
+        "text": "many",
+        "ipa": "/ËˆmÉ›ni/"
+      },
+      {
+        "text": "milk",
+        "ipa": "/mÉªlk/"
+      },
+      {
+        "text": "mouth",
+        "ipa": "/maÊŠÎ¸/"
+      },
+      {
+        "text": "money",
+        "ipa": "/ËˆmÊŒni/"
+      },
+      {
+        "text": "mother",
+        "ipa": "/ËˆmÊŒÃ°Éš/"
+      },
+      {
+        "text": "moment",
+        "ipa": "/ËˆmoÊŠmÉ™nt/"
+      },
+      {
+        "text": "morning",
+        "ipa": "/ËˆmÉ”rnÉªÅ‹/"
+      },
+      {
+        "text": "movie",
+        "ipa": "/Ëˆmuvi/"
+      },
+      {
+        "text": "music",
+        "ipa": "/ËˆmjuzÉªk/"
+      },
+      {
+        "text": "machine",
+        "ipa": "/mÉ™ËˆÊƒin/"
+      },
+      {
+        "text": "member",
+        "ipa": "/ËˆmÉ›mbÉš/"
+      },
+      {
+        "text": "market",
+        "ipa": "/ËˆmÉ‘rkÉ™t/"
+      },
+      {
+        "text": "manager",
+        "ipa": "/ËˆmÃ¦nÉªÊ¤Éš/"
+      },
+      {
+        "text": "menu",
+        "ipa": "/ËˆmÉ›nju/"
+      },
+      {
+        "text": "message",
+        "ipa": "/ËˆmÉ›sÉªÊ¤/"
+      },
+      {
+        "text": "memory",
+        "ipa": "/ËˆmÉ›mÉ™ri/"
+      },
+      {
+        "text": "minute",
+        "ipa": "/ËˆmÉªnÉªt/"
+      },
+      {
+        "text": "mountain",
+        "ipa": "/ËˆmaÊŠntÉ™n/"
+      },
+      {
+        "text": "move",
+        "ipa": "/muv/"
+      },
+      {
+        "text": "meet",
+        "ipa": "/mit/"
+      },
+      {
+        "text": "meal",
+        "ipa": "/mil/"
+      },
+      {
+        "text": "mail",
+        "ipa": "/meÉªl/"
+      },
+      {
+        "text": "main",
+        "ipa": "/meÉªn/"
+      },
+      {
+        "text": "mood",
+        "ipa": "/mud/"
+      }
+    ]
+  }
+}

@@ -1,0 +1,217 @@
+{
+  "vowels": {
+    "lax": [
+      {
+        "symbol": "ʌ",
+        "spellings": [
+          { "letters": "u", "examples": ["cup", "luck", "bus"] },
+          { "letters": "o", "examples": ["love", "money"] },
+          { "letters": "ou", "examples": ["country", "young"] }
+        ],
+        "trap": "Jangan dibaca u Indonesia. Ini bunyi a samar."
+      },
+      {
+        "symbol": "ɪ",
+        "spellings": [
+          { "letters": "i", "examples": ["sit", "big", "give"] },
+          { "letters": "y", "examples": ["gym", "symbol"] },
+          { "letters": "ui", "examples": ["build"] }
+        ],
+        "trap": "Jangan dipanjangkan jadi i."
+      },
+      {
+        "symbol": "ʊ",
+        "spellings": [
+          { "letters": "oo", "examples": ["book", "good"] },
+          { "letters": "u", "examples": ["put", "full"] },
+          { "letters": "o", "examples": ["woman"] }
+        ],
+        "trap": "Penutur Indonesia hampir selalu salah, jadi u panjang."
+      },
+      {
+        "symbol": "ɛ",
+        "spellings": [
+          { "letters": "e", "examples": ["bed", "pen"] },
+          { "letters": "ea", "examples": ["head", "bread"] },
+          { "letters": "a", "examples": ["many"] }
+        ],
+        "trap": "Jangan naik ke eɪ."
+      },
+      {
+        "symbol": "ə",
+        "name": "schwa",
+        "spellings": [
+          { "letters": "a", "examples": ["about", "ago"] },
+          { "letters": "e", "examples": ["problem", "open"] },
+          { "letters": "o", "examples": ["police"] },
+          { "letters": "u", "examples": ["support"] }
+        ],
+        "trap": "Ini bunyi paling sering tapi paling diabaikan."
+      },
+      {
+        "symbol": "ɚ",
+        "spellings": [
+          { "letters": "er / ir / ur", "examples": ["teacher", "bird", "turn"] }
+        ],
+        "trap": "Bukan er keras, tapi ə + r."
+      }
+    ],
+    "tense": [
+      {
+        "symbol": "ɑ",
+        "spellings": [
+          { "letters": "a + r", "examples": ["car", "start"] },
+          { "letters": "o (AmE)", "examples": ["hot", "not"] },
+          { "letters": "au", "examples": ["laugh"] }
+        ]
+      },
+      {
+        "symbol": "i",
+        "spellings": [
+          { "letters": "ee", "examples": ["see"] },
+          { "letters": "ea", "examples": ["eat"] },
+          { "letters": "i", "examples": ["machine"] },
+          { "letters": "y", "examples": ["city"] }
+        ]
+      },
+      {
+        "symbol": "u",
+        "spellings": [
+          { "letters": "oo", "examples": ["food"] },
+          { "letters": "u + e", "examples": ["rule"] },
+          { "letters": "ew", "examples": ["new"] }
+        ]
+      },
+      {
+        "symbol": "æ",
+        "spellings": [
+          { "letters": "a", "examples": ["cat", "man"] },
+          { "letters": "ai", "examples": ["plaid"] }
+        ],
+        "trap": "Ini bukan e, rahang harus turun."
+      },
+      {
+        "symbol": "ɔ",
+        "spellings": [
+          { "letters": "o + r", "examples": ["for", "more"] },
+          { "letters": "a + ll", "examples": ["call", "wall"] },
+          { "letters": "au", "examples": ["cause"] }
+        ]
+      }
+    ]
+  },
+  "diphthongs": [
+    {
+      "symbol": "aɪ",
+      "spellings": [
+        { "letters": "i + e", "examples": ["time"] },
+        { "letters": "igh", "examples": ["light"] },
+        { "letters": "y", "examples": ["my"] }
+      ]
+    },
+    {
+      "symbol": "eɪ",
+      "spellings": [
+        { "letters": "a + e", "examples": ["name"] },
+        { "letters": "ai / ay", "examples": ["rain", "day"] },
+        { "letters": "ei", "examples": ["eight"] }
+      ]
+    },
+    {
+      "symbol": "ɔɪ",
+      "spellings": [
+        { "letters": "oi / oy", "examples": ["coin", "boy"] }
+      ]
+    },
+    {
+      "symbol": "ɪə",
+      "spellings": [
+        { "letters": "ear", "examples": ["ear", "here"] }
+      ]
+    },
+    {
+      "symbol": "eə",
+      "spellings": [
+        { "letters": "air", "examples": ["air"] },
+        { "letters": "are", "examples": ["care"] },
+        { "letters": "ear", "examples": ["bear"] }
+      ]
+    },
+    {
+      "symbol": "ʊə",
+      "spellings": [
+        { "letters": "ure", "examples": ["pure", "tour"] }
+      ]
+    },
+    {
+      "symbol": "oʊ",
+      "spellings": [
+        { "letters": "o + e", "examples": ["home"] },
+        { "letters": "oa", "examples": ["road"] },
+        { "letters": "ow", "examples": ["slow"] }
+      ]
+    },
+    {
+      "symbol": "aʊ",
+      "spellings": [
+        { "letters": "ou", "examples": ["out"] },
+        { "letters": "ow", "examples": ["now"] }
+      ]
+    }
+  ],
+  "consonants": [
+    {
+      "symbol": "θ",
+      "spellings": [{ "letters": "th", "examples": ["think"] }],
+      "trap": "Jangan jadi t."
+    },
+    {
+      "symbol": "ð",
+      "spellings": [{ "letters": "th", "examples": ["this"] }],
+      "trap": "Jangan jadi d."
+    },
+    {
+      "symbol": "ʃ",
+      "spellings": [
+        { "letters": "sh", "examples": ["she"] },
+        { "letters": "ti / ci", "examples": ["nation", "special"] },
+        { "letters": "ch", "examples": ["machine"] }
+      ]
+    },
+    {
+      "symbol": "ʧ",
+      "spellings": [
+        { "letters": "ch", "examples": ["chair"] },
+        { "letters": "t + u", "examples": ["future"] }
+      ]
+    },
+    {
+      "symbol": "ʒ",
+      "spellings": [
+        { "letters": "si", "examples": ["vision"] },
+        { "letters": "s", "examples": ["measure"] }
+      ]
+    },
+    {
+      "symbol": "ʤ",
+      "spellings": [
+        { "letters": "j", "examples": ["job"] },
+        { "letters": "g + e/i/y", "examples": ["giant"] },
+        { "letters": "dg", "examples": ["bridge"] }
+      ]
+    },
+    {
+      "symbol": "ŋ",
+      "spellings": [
+        { "letters": "ng", "examples": ["sing"] },
+        { "letters": "n + k/g", "examples": ["think"] }
+      ],
+      "rule": "Tidak pernah muncul di awal kata."
+    }
+  ],
+  "core_logic": [
+    "Huruf tidak menentukan bunyi",
+    "Simbol IPA adalah hasil pola huruf",
+    "Belajar dari simbol ke huruf lebih efektif untuk reading dan listening"
+  ]
+}

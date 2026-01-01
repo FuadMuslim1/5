@@ -1,0 +1,126 @@
+{
+  "Vowel-Lax-ʊ": {
+    "ʊ": [
+      {
+        "text": "book",
+        "ipa": "/bʊk/"
+      },
+      {
+        "text": "cook",
+        "ipa": "/kʊk/"
+      },
+      {
+        "text": "look",
+        "ipa": "/lʊk/"
+      },
+      {
+        "text": "took",
+        "ipa": "/tʊk/"
+      },
+      {
+        "text": "shook",
+        "ipa": "/ʃʊk/"
+      },
+      {
+        "text": "hook",
+        "ipa": "/hʊk/"
+      },
+      {
+        "text": "foot",
+        "ipa": "/fʊt/"
+      },
+      {
+        "text": "good",
+        "ipa": "/ɡʊd/"
+      },
+      {
+        "text": "wood",
+        "ipa": "/wʊd/"
+      },
+      {
+        "text": "hood",
+        "ipa": "/hʊd/"
+      },
+      {
+        "text": "put",
+        "ipa": "/pʊt/"
+      },
+      {
+        "text": "push",
+        "ipa": "/pʊʃ/"
+      },
+      {
+        "text": "full",
+        "ipa": "/fʊl/"
+      },
+      {
+        "text": "bull",
+        "ipa": "/bʊl/"
+      },
+      {
+        "text": "pull",
+        "ipa": "/pʊl/"
+      },
+      {
+        "text": "sugar",
+        "ipa": "/ˈʃʊɡɚ/"
+      },
+      {
+        "text": "cushion",
+        "ipa": "/ˈkʊʃən/"
+      },
+      {
+        "text": "rookie",
+        "ipa": "/ˈrʊki/"
+      },
+      {
+        "text": "cookie",
+        "ipa": "/ˈkʊki/"
+      },
+      {
+        "text": "woman",
+        "ipa": "/ˈwʊmən/"
+      },
+      {
+        "text": "wolf",
+        "ipa": "/wʊlf/"
+      },
+      {
+        "text": "bush",
+        "ipa": "/bʊʃ/"
+      },
+      {
+        "text": "butcher",
+        "ipa": "/ˈbʊtʃɚ/"
+      },
+      {
+        "text": "pudding",
+        "ipa": "/ˈpʊdɪŋ/"
+      },
+      {
+        "text": "putty",
+        "ipa": "/ˈpʊti/"
+      },
+      {
+        "text": "pulling",
+        "ipa": "/ˈpʊlɪŋ/"
+      },
+      {
+        "text": "hoodie",
+        "ipa": "/ˈhʊdi/"
+      },
+      {
+        "text": "stood",
+        "ipa": "/stʊd/"
+      },
+      {
+        "text": "could",
+        "ipa": "/kʊd/"
+      },
+      {
+        "text": "should",
+        "ipa": "/ʃʊd/"
+      }
+    ]
+  }
+}

@@ -1,0 +1,126 @@
+{
+  "Vowel-Lax-ʌ": {
+    "ʌ": [
+      {
+        "text": "Up",
+        "ipa": "/ʌp/"
+      },
+      {
+        "text": "Cup",
+        "ipa": "/kʌp/"
+      },
+      {
+        "text": "But",
+        "ipa": "/bʌt/"
+      },
+      {
+        "text": "Luck",
+        "ipa": "/lʌk/"
+      },
+      {
+        "text": "Fun",
+        "ipa": "/fʌn/"
+      },
+      {
+        "text": "Love",
+        "ipa": "/lʌv/"
+      },
+      {
+        "text": "Come",
+        "ipa": "/kʌm/"
+      },
+      {
+        "text": "Bus",
+        "ipa": "/bʌs/"
+      },
+      {
+        "text": "Sunday",
+        "ipa": "/sʌn/"
+      },
+      {
+        "text": "Cut",
+        "ipa": "/kʌt/"
+      },
+      {
+        "text": "Much",
+        "ipa": "/mʌtʃ/"
+      },
+      {
+        "text": "Us",
+        "ipa": "/ʌs/"
+      },
+      {
+        "text": "Run",
+        "ipa": "/rʌn/"
+      },
+      {
+        "text": "Gun",
+        "ipa": "/ɡʌn/"
+      },
+      {
+        "text": "Jump",
+        "ipa": "/dʒʌmp/"
+      },
+      {
+        "text": "Shut",
+        "ipa": "/ʃʌt/"
+      },
+      {
+        "text": "Dust",
+        "ipa": "/dʌst/"
+      },
+      {
+        "text": "Trust",
+        "ipa": "/trʌst/"
+      },
+      {
+        "text": "Stuff",
+        "ipa": "/stʌf/"
+      },
+      {
+        "text": "Dull",
+        "ipa": "/dʌl/"
+      },
+      {
+        "text": "Ugly",
+        "ipa": "/ˈʌɡli/"
+      },
+      {
+        "text": "Uncle",
+        "ipa": "/ˈʌŋkəl/"
+      },
+      {
+        "text": "Under",
+        "ipa": "/ˈʌndɚ/"
+      },
+      {
+        "text": "Onion",
+        "ipa": "/ˈʌnjən/"
+      },
+      {
+        "text": "Money",
+        "ipa": "/ˈmʌni/"
+      },
+      {
+        "text": "Honey",
+        "ipa": "/ˈhʌni/"
+      },
+      {
+        "text": "Cover",
+        "ipa": "/ˈkʌvɚ/"
+      },
+      {
+        "text": "Worry",
+        "ipa": "/ˈwʌri/"
+      },
+      {
+        "text": "Hurry",
+        "ipa": "/ˈhʌri/"
+      },
+      {
+        "text": "Touch",
+        "ipa": "/tʌtʃ/"
+      }
+    ]
+  }
+}

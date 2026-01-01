@@ -1,0 +1,126 @@
+{
+  "Vowel-Lax-ə": {
+    "ə": [
+      {
+        "text": "about",
+        "ipa": "/əˈbaʊt/"
+      },
+      {
+        "text": "ago",
+        "ipa": "/əˈɡoʊ/"
+      },
+      {
+        "text": "sofa",
+        "ipa": "/ˈsoʊfə/"
+      },
+      {
+        "text": "banana",
+        "ipa": "/bəˈnænə/"
+      },
+      {
+        "text": "family",
+        "ipa": "/ˈfæməli/"
+      },
+      {
+        "text": "animal",
+        "ipa": "/ˈænəməl/"
+      },
+      {
+        "text": "problem",
+        "ipa": "/ˈprɑbləm/"
+      },
+      {
+        "text": "system",
+        "ipa": "/ˈsɪstəm/"
+      },
+      {
+        "text": "doctor",
+        "ipa": "/ˈdɑktɚ/"
+      },
+      {
+        "text": "teacher",
+        "ipa": "/ˈtitʃɚ/"
+      },
+      {
+        "text": "paper",
+        "ipa": "/ˈpeɪpɚ/"
+      },
+      {
+        "text": "water",
+        "ipa": "/ˈwɑtɚ/"
+      },
+      {
+        "text": "color",
+        "ipa": "/ˈkʌlɚ/"
+      },
+      {
+        "text": "dollar",
+        "ipa": "/ˈdɑlɚ/"
+      },
+      {
+        "text": "father",
+        "ipa": "/ˈfɑðɚ/"
+      },
+      {
+        "text": "mother",
+        "ipa": "/ˈmʌðɚ/"
+      },
+      {
+        "text": "brother",
+        "ipa": "/ˈbrʌðɚ/"
+      },
+      {
+        "text": "sister",
+        "ipa": "/ˈsɪstɚ/"
+      },
+      {
+        "text": "another",
+        "ipa": "/əˈnʌðɚ/"
+      },
+      {
+        "text": "together",
+        "ipa": "/təˈɡɛðɚ/"
+      },
+      {
+        "text": "today",
+        "ipa": "/təˈdeɪ/"
+      },
+      {
+        "text": "tomorrow",
+        "ipa": "/təˈmɑroʊ/"
+      },
+      {
+        "text": "support",
+        "ipa": "/səˈpɔrt/"
+      },
+      {
+        "text": "supply",
+        "ipa": "/səˈplaɪ/"
+      },
+      {
+        "text": "suppose",
+        "ipa": "/səˈpoʊz/"
+      },
+      {
+        "text": "police",
+        "ipa": "/pəˈlis/"
+      },
+      {
+        "text": "machine",
+        "ipa": "/məˈʃin/"
+      },
+      {
+        "text": "opinion",
+        "ipa": "/əˈpɪnjən/"
+      },
+      {
+        "text": "condition",
+        "ipa": "/kənˈdɪʃən/"
+      },
+      {
+        "text": "position",
+        "ipa": "/pəˈzɪʃən/"
+      }
+    ]
+  }
+}

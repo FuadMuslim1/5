@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Pronunciation Wheel</title>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&family=Poppins:wght@500;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <go-back-button></go-back-button>
+  <my-sidebar></my-sidebar>
+
+
+  <div class="menu-wrapper">
+    <div class="number-wheel" id="wheel">
+      <ul>
+        <li data-topic="Symbol">1</li>
+        <li data-topic="Stressing" data-soon="true">2</li>
+        <li data-topic="Intonation" data-soon="true">3</li>
+        <li data-topic="Final Sound" data-soon="true">4</li>
+        <li data-topic="American T" data-soon="true">5</li>
+        <li data-topic="Connected Speech" data-soon="true">6</li>
+      </ul>
+    </div>
+
+    <div class="topic-panel">
+      <h2 id="topicTitle"></h2>
+      <p id="topicDesc"></p>
+    </div>
+  </div>
+
+  <div id="tooltip" class="global-tooltip">Coming Soon</div>
+
+  <script src="script.js"></script>
+  <script src="button_go_back.js"></script>
+  <script type=module src="sidebar.js"></script>
+  <script type=module src="website_name.js"></script>
+</body>
+</html>

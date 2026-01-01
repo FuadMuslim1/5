@@ -1,0 +1,144 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', 'Inter', sans-serif;
+}
+
+body {
+  background: #000;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px 20px;
+  position: relative;
+}
+
+h1 {
+  padding-top: 50px;
+}
+
+.title {
+  font-size: 36px;
+  font-weight: 700;
+  margin-bottom: 40px;
+  text-align: center;
+  text-shadow: 0 0 15px #00fff0, 0 0 30px #00fff0;
+}
+
+.board {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 40px;
+  width: 100%;
+}
+
+.element {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  width: 140px;
+}
+
+.btn-img {
+  width: 120px;
+  height: 120px;
+  border-radius: 16px;
+  cursor: pointer;
+  background: transparent;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.btn-img {
+  transform: scale(1.05);
+  filter: drop-shadow(0 0 10px #00fff0) drop-shadow(0 0 20px #00fff0);
+}
+
+.btn-3d, .lamp, .word-img {
+  display: none;
+}
+
+.lamp {
+  width: 30px;
+  height: 150px;
+  margin-top: -10px;
+  border-radius: 50% / 100%;
+  background: radial-gradient(circle at top, rgba(0,255,240,0.8), rgba(0,255,240,0));
+  animation: lampFlow 2s linear forwards;
+}
+
+@keyframes lampFlow {
+  0% { height: 0; opacity: 0; }
+  100% { height: 150px; opacity: 1; }
+}
+
+/* Container pembungkus tooltip */
+.tooltip-container {
+  position: relative;
+  display: inline-block;
+}
+
+/* Hanya gambar di dalam tooltip-container yang punya kursor pointer */
+.tooltip-container .word-img {
+  cursor: pointer;
+}
+
+/* Gaya Tooltip Neon */
+.tooltip-text {
+  visibility: hidden;
+  opacity: 0;
+  position: absolute;
+  bottom: 130%; /* Muncul di atas gambar */
+  left: 50%;
+  transform: translateX(-50%) translateY(10px);
+  background: rgba(0, 0, 0, 0.9);
+  color: #00ffff; /* Warna biru neon */
+  padding: 8px 16px;
+  border: 1px solid #00ffff;
+  box-shadow: 0 0 15px rgba(0, 255, 255, 0.6);
+  border-radius: 4px;
+  white-space: nowrap;
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  z-index: 1000;
+  transition: all 0.3s ease;
+  pointer-events: none;
+}
+
+/* Saat aktif muncul */
+.tooltip-text.show {
+  visibility: visible;
+  opacity: 1;
+  transform: translateX(-50%) translateY(0);
+}
+
+/* Panah kecil di bawah tooltip */
+.tooltip-text::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #00ffff transparent transparent transparent;
+}
+
+
+/* Mobile friendly */
+@media screen and (max-width: 600px) {
+  .board {
+    gap: 25px;
+  }
+  .element {
+    width: 110px;
+  }
+  .btn-img, .btn-3d, .word-img {
+    width: 100px;
+    height: 100px;
+  }
+}

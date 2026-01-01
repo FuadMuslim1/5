@@ -1,0 +1,126 @@
+{
+  "Vowel-Lax-ɛ": {
+    "ɛ": [
+      {
+        "text": "bed",
+        "ipa": "/bɛd/"
+      },
+      {
+        "text": "red",
+        "ipa": "/rɛd/"
+      },
+      {
+        "text": "fed",
+        "ipa": "/fɛd/"
+      },
+      {
+        "text": "led",
+        "ipa": "/lɛd/"
+      },
+      {
+        "text": "said",
+        "ipa": "/sɛd/"
+      },
+      {
+        "text": "head",
+        "ipa": "/hɛd/"
+      },
+      {
+        "text": "bread",
+        "ipa": "/brɛd/"
+      },
+      {
+        "text": "dead",
+        "ipa": "/dɛd/"
+      },
+      {
+        "text": "pen",
+        "ipa": "/pɛn/"
+      },
+      {
+        "text": "ten",
+        "ipa": "/tɛn/"
+      },
+      {
+        "text": "men",
+        "ipa": "/mɛn/"
+      },
+      {
+        "text": "hen",
+        "ipa": "/hɛn/"
+      },
+      {
+        "text": "send",
+        "ipa": "/sɛnd/"
+      },
+      {
+        "text": "lend",
+        "ipa": "/lɛnd/"
+      },
+      {
+        "text": "friend",
+        "ipa": "/frɛnd/"
+      },
+      {
+        "text": "get",
+        "ipa": "/ɡɛt/"
+      },
+      {
+        "text": "let",
+        "ipa": "/lɛt/"
+      },
+      {
+        "text": "wet",
+        "ipa": "/wɛt/"
+      },
+      {
+        "text": "set",
+        "ipa": "/sɛt/"
+      },
+      {
+        "text": "bet",
+        "ipa": "/bɛt/"
+      },
+      {
+        "text": "net",
+        "ipa": "/nɛt/"
+      },
+      {
+        "text": "pet",
+        "ipa": "/pɛt/"
+      },
+      {
+        "text": "yes",
+        "ipa": "/jɛs/"
+      },
+      {
+        "text": "dress",
+        "ipa": "/drɛs/"
+      },
+      {
+        "text": "best",
+        "ipa": "/bɛst/"
+      },
+      {
+        "text": "test",
+        "ipa": "/tɛst/"
+      },
+      {
+        "text": "rest",
+        "ipa": "/rɛst/"
+      },
+      {
+        "text": "chest",
+        "ipa": "/tʃɛst/"
+      },
+      {
+        "text": "guess",
+        "ipa": "/ɡɛs/"
+      },
+      {
+        "text": "message",
+        "ipa": "/ˈmɛsɪdʒ/"
+      }
+    ]
+  }
+}

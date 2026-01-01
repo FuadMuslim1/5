@@ -1,0 +1,366 @@
+/* =========================
+   GLOBAL THEME (INDEX)
+   ========================= */
+:root {
+  --bg-color: #f9f9f9;
+  --text-color: #111;
+}
+
+html {
+  overflow-y: auto; /* Ensure HTML allows vertical scrolling */
+  scroll-behavior: smooth;
+  height: 100%;
+}
+
+html, body {
+  touch-action: pan-y; /* Allow vertical scrolling on touch devices */
+}
+
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  background-color: var(--bg-color);
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  text-align: center;
+  color: var(--text-color);
+  overflow-x: hidden;
+  overflow-y: auto;
+  position: relative;
+}
+
+/* All text elements follow */
+h1, h2, h3, p, li, span, a, button {
+  color: var(--text-color);
+}
+
+/* FOCUS MODE - Scoped to PronunciationSymbol page only */
+.pronunciation-symbol-page.focus-mode {
+  --bg-color: #111;
+  --text-color: #fff;
+}
+
+/* ===============================
+   OVERRIDE FOCUS MODE
+   Keep "Examples:" color
+   =============================== */
+.pronunciation-symbol-page.focus-active .examples-container h1 {
+  color: #f0f0f0 !important;
+}
+
+/* =========================
+   MAIN CONTENT STYLES
+   ========================= */
+.center-text {
+  text-align: center;
+}
+
+.main-content {
+  padding: 30px;
+  transition: color 0.3s, padding-bottom 0.3s, padding-top 0.3s;
+}
+
+.focus-controls {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.focus-btn {
+  position: relative;
+  display: inline-block;
+  border-radius: 50px;
+  padding: 10px 18px;
+  background-color: #111;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  cursor: pointer;
+  overflow: hidden;
+  z-index: 0;
+  font-size: 14px;
+  transition: color 0.3s, background-color 0.3s, transform 0.2s;
+}
+
+.focus-btn::before {
+  content: '';
+  position: absolute;
+  top: -3px; left: -3px; right: -3px; bottom: -3px;
+  background: conic-gradient(from 0deg, #f09433, #e6683c, #dc2743, #cc2366, #bc1888, #f09433);
+  border-radius: 50px;
+  z-index: -1;
+}
+
+.focus-btn.active::before {
+  animation: rotateGradient 2.5s linear infinite;
+}
+
+@keyframes rotateGradient {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+@keyframes pulseClick {
+  0% { transform: scale(1); }
+  50% { transform: scale(1.15); }
+  100% { transform: scale(1); }
+}
+
+.focus-btn.clicked {
+  animation: pulseClick 0.3s ease-in-out;
+}
+
+.focus-btn:hover {
+  transform: scale(1.05);
+  background-color: #222;
+  color: #fff;
+}
+
+.player-controls {
+  display: flex;
+  gap: 5px;
+  margin-top: 5px;
+}
+
+.player-controls button {
+  padding: 5px 10px;
+  background: #111;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.floating-player {
+  display: none;
+  width: 25%;
+  height: 240px;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  background-color: #000;
+  z-index: 50;
+  transition: bottom 0.5s, left 0.3s, top 0.3s;
+  border: 2px solid #fff;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.floating-player.active {
+  display: block;
+}
+
+.floating-player .close-btn {
+  position: absolute;
+  top: 4px;
+  right: 6px;
+  z-index: 10;
+  background: red;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  width: 24px;
+  height: 24px;
+  cursor: pointer;
+}
+
+@media (max-width: 600px) {
+  .floating-player {
+    height: 220px;
+    width: 80%;
+  }
+  .focus-btn {
+    padding: 8px 14px;
+    font-size: 12px;
+  }
+}
+
+
+
+/* =========================
+   HEADER STYLES
+   ========================= */
+.header {
+  text-align: center;
+  padding: 20px;
+}
+
+.header h1 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 3rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+  margin-bottom: 10px;
+  background: linear-gradient(90deg, #f09433, #e6683c, #dc2743, #cc2366, #bc1888);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-shadow: 1px 1px 2px rgba(0,0,0,0.2);
+}
+
+.go-back-btn {
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  padding: 10px 15px;
+  background: #111;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  z-index: 1000;
+}
+
+/* =========================
+   EXAMPLES STYLES
+   ========================= */
+.examples-container {
+  margin-top: 40px;
+  text-align: center;
+}
+
+.examples-container h1 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.examples-word-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  align-items: flex-start;
+  /* Force immediate layout calculation */
+  contain: layout style;
+  will-change: auto;
+}
+
+.examples-word-card {
+  background: linear-gradient(135deg, #e3f2fd, #f3e5f5);
+  border-radius: 20px;
+  padding: 15px 10px;
+  width: 120px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  transition: transform 0.3s, box-shadow 0.3s;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+}
+
+.examples-word-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 25px rgba(0,0,0,0.2);
+}
+
+.examples-word {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #2d2d2d;
+  margin-bottom: 5px;
+}
+
+.examples-ipa {
+  font-size: 0.85rem;
+  color: #666;
+}
+
+.speak-btn {
+  background: linear-gradient(135deg, #4CAF50, #45a049);
+  border: none;
+  border-radius: 50%;
+  width: 32px;
+  height: 32px;
+  cursor: pointer;
+  color: white;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.2s, box-shadow 0.2s;
+  box-shadow: 0 2px 8px rgba(76, 175, 80, 0.3);
+}
+
+.speak-btn:hover {
+  transform: scale(1.1);
+  box-shadow: 0 4px 12px rgba(76, 175, 80, 0.5);
+}
+
+.speak-btn:active {
+  transform: scale(0.95);
+}
+
+@media(max-width:600px) {
+  .examples-word-card {
+    width: 90px;
+    padding: 12px 8px;
+  }
+  .examples-word {
+    font-size: 1rem;
+  }
+  .examples-ipa {
+    font-size: 0.8rem;
+  }
+}
+
+/* FOCUS MODE OVERRIDES - Scoped to PronunciationSymbol page only */
+.pronunciation-symbol-page.focus-active {
+  background: #111;
+  color: #fff;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+.pronunciation-symbol-page.focus-active .examples-container {
+  background: #111 !important;
+  opacity: 1 !important;
+  transform: scale(1) !important;
+  border-radius: 20px;
+  padding: 20px;
+  margin: 20px auto;
+  max-width: 800px;
+}
+
+.pronunciation-symbol-page.focus-active .examples-word-card {
+  background: linear-gradient(135deg, #090909, #111);
+}
+
+.pronunciation-symbol-page.focus-active .examples-word-card .examples-word,
+.pronunciation-symbol-page.focus-active .examples-word-card .examples-ipa {
+  color: #f8f0f0;
+}
+
+.pronunciation-symbol-page.focus-active .examples-word-card::before {
+  content: "";
+  position: absolute;
+  inset: -2px;
+  border-radius: 22px;
+  background: linear-gradient(135deg, #a855f7, #c084fc, #8b5cf6);
+  z-index: -1;
+  pointer-events: none;
+  opacity: 0.9;
+  animation: neonPulse 2s infinite alternate;
+}
+
+@keyframes neonPulse {
+  0% {
+    filter: drop-shadow(0 0 4px rgba(168,85,247,0.7)) drop-shadow(0 0 8px rgba(192,132,252,0.5));
+  }
+  50% {
+    filter: drop-shadow(0 0 10px rgba(168,85,247,1)) drop-shadow(0 0 18px rgba(192,132,252,0.8));
+  }
+  100% {
+    filter: drop-shadow(0 0 4px rgba(168,85,247,0.7)) drop-shadow(0 0 8px rgba(192,132,252,0.5));
+  }
+}
+
+.pronunciation-symbol-page.focus-active .examples-word-card:hover::before {
+  filter: drop-shadow(0 0 12px rgba(168,85,247,1)) drop-shadow(0 0 20px rgba(192,132,252,0.9));
+}
+
+
